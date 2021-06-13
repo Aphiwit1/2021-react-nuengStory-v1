@@ -1,0 +1,28 @@
+.blog-content-container {
+    display: flex;
+    background-color: #f5f5f57a;
+    padding: 0px 15%;
+}
+
+.text-header {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 2em 0px;
+    color: #4056ff;
+}
+
+.text-topic {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 1.5em 0px .3em 0px;
+}
+
+.cover-img {
+    margin: 1.5em 0px 3em 0px;
+}
+.text-content {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
