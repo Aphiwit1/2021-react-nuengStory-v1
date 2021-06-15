@@ -20,9 +20,30 @@
 .cover-img {
     margin: 1.5em 0px 3em 0px;
 }
+
+.cover-img > img {
+    width: 100%;
+}
 .text-content {
     font-size: 18px;
     font-weight: 300;
     margin-top: 0.5em;
     margin-bottom: 1em;
+    line-height: 1.7;
 }
+
+@media only screen and (max-width: 500px) {
+   .blog-content-container {
+    padding: 0px 5%;
+   }
+   .text-header {
+       font-size: 24px;
+   }
+
+   .text-content, .text-topic {
+       font-size: 16px;
+       line-height: 1.7;
+   }
+  }
+
+  /* dl.dropboxusercontent.com/..... */

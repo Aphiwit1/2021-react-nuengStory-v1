@@ -1,10 +1,10 @@
 const blogList = [
     {
       postId: "1",
-      title: "Is Angular still a good choice in 2021?",
+      title: "ทำข้าวผัดกระเพรายังไงให้อร่อยห๊อมหอม ฉบับปี2021",
       createdBy: "aphiwit",
       date: "4/06/2021",
-      subTitle: "Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+      subTitle: "เราใส่น้ำมันในกะทะปริมาณน้อยๆถึงน้อยมากๆ เอาแค่พอผัดพริกกระเทียมสับได้ก็พอ หลังผัดจนพริกกระเทียมสับจนหอมแล้วก็ใส่หมูสับ ปรุงรสด้วยน้ำมันหอย ซีอิ้วขาว พริกไทยป่น น้ำตาลทราย ซีอิ้วดำ ผัดต่อไปจนเครื่องทุกอย่างเข้ากันแล้วเริ่มแห้ง...",
       readMore: "Read more ->"
     } ,
     {

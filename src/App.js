@@ -22,8 +22,22 @@ function App() {
         </Route>
 
         <Route path="/about">
-          <div>
-            this is about who is nueng
+          <div className="about-page-container">
+              <div className="img-profile">
+                <img src="https://www.dl.dropboxusercontent.com/s/x45qda6j817esg9/%40img_aphiwit.jpg?dl=0"></img>
+              </div>
+
+              <div className="name">
+                    <div>Nueng</div>
+                    <div>Aphiwit Boonprasert</div>
+              </div>
+              <div className="work">
+                  Junior Web Developer
+              </div>
+
+              <div className="contact">
+                
+              </div>
           </div>
         </Route>
 
