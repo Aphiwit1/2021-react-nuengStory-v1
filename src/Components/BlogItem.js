@@ -1,5 +1,6 @@
 import './BlogItem.css'
-import { Link, Switch, Route } from 'react-router-dom'
+import { Link } from 'react-router-dom'
+
 
 function BlogItem(props) {
     let { blogList } = props
@@ -12,8 +13,7 @@ function BlogItem(props) {
                 <h2>
                         <span className="blog-title">
                             <span><>{blogList.title}</></span>
-                            <div className="bg-line-color">
-                            </div>
+                           
                         </span>
                     </h2>
                     {/* <h5 class="create-tile">Title description, Dec 7, 2017</h5> */}

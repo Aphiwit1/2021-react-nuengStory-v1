@@ -37,7 +37,8 @@
 
 .link-active {
   color: #424242;
-  border-bottom: 5px solid #4056ff;
+  /* border-bottom: 5px solid #4056ff; */
+  border-bottom: 5px solid #f4d150;
 }
 
 @media only screen and (max-width: 500px) {

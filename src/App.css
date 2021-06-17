@@ -1,3 +1,4 @@
+/* Darkblack: #393838 */
 /* .fakeimg {
   height: 200px;
   background-color: antiquewhite;
@@ -16,9 +17,10 @@
 }
 
 .img-profile > img {
-  width: 150px;
-  height: auto;
   border-radius: 50%;
+  width: 150px;
+    height: 150px;
+    background-color: #eee;
 }
 
 .name {
@@ -43,5 +45,7 @@
 
   .img-profile > img { 
     width: 100px;
+    height: 100px;
+    background-color: #eee;
   }
 }

@@ -1,18 +1,18 @@
 const blogList = [
     {
       postId: "1",
-      title: "ทำข้าวผัดกระเพรายังไงให้อร่อยห๊อมหอม ฉบับปี2021",
+      title: "How to add Cascadia Font in VS Code",
       createdBy: "aphiwit",
       date: "4/06/2021",
-      subTitle: "เราใส่น้ำมันในกะทะปริมาณน้อยๆถึงน้อยมากๆ เอาแค่พอผัดพริกกระเทียมสับได้ก็พอ หลังผัดจนพริกกระเทียมสับจนหอมแล้วก็ใส่หมูสับ ปรุงรสด้วยน้ำมันหอย ซีอิ้วขาว พริกไทยป่น น้ำตาลทราย ซีอิ้วดำ ผัดต่อไปจนเครื่องทุกอย่างเข้ากันแล้วเริ่มแห้ง...",
+      subTitle: "Click this link to download font 'https://github.com/microsoft/cascadia-code/releases'...",
       readMore: "Read more ->"
     } ,
     {
       postId: "2",
-      title: "XXXXX",
+      title: "#CSS Trick: วิธีจัด Element ไว้ตรงกลางของหน้าจอเว็บไซต์",
       createdBy: "aphiwit",
       date: "4/06/2021",
-      subTitle: "xxxx",
+      subTitle: "วิธีการจัด Element ไว้ตรงกลางของหน้าจอนั้นมีอยู่หลายวิธี...",
       readMore: "Read more ->"
     } ,
   ]

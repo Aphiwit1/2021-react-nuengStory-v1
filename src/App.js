@@ -24,7 +24,7 @@ function App() {
         <Route path="/about">
           <div className="about-page-container">
               <div className="img-profile">
-                <img src="https://www.dl.dropboxusercontent.com/s/x45qda6j817esg9/%40img_aphiwit.jpg?dl=0"></img>
+                <img src="https://dl.dropboxusercontent.com/s/c8ouo4ma9vd16l6/%40avatar.png?dl=0"></img>
               </div>
 
               <div className="name">
