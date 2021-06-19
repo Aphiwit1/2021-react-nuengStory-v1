@@ -10,9 +10,8 @@ import { useEffect } from 'react';
 
 function App() {
 
-
   useEffect(() => {
-    document.title = "NuengStory Dev Blog"
+    document.title = "NuengStory Blog"
  }, []);
 
 

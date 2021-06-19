@@ -1,6 +1,6 @@
 const blogList = [
     {
-      postId: "1",
+      postId: "how-to-add-cascadia-vscode",
       title: "How to add Cascadia Font in VS Code",
       cover: "https://dl.dropboxusercontent.com/s/7c6wu7iqz4ww8et/cascadia.jpg?dl=0",
       createdBy: "aphiwit",

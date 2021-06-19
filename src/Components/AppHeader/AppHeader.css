@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;500;700&display=swap');
-.header{
-  margin: 0px 60px;
-}
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: 'Kanit', sans-serif;
-  height: 60px;
+  background-color: hsla(0,0%,100%,.5);
+  backdrop-filter: blur(20px);
+  height: 75px;
+  position: fixed;
+  width: 100%;
+  justify-content: space-evenly;
+  z-index: 2;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
 .header > .logo {

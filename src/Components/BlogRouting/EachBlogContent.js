@@ -5,12 +5,9 @@ function EachBlogContent() {
     const { postId } = useParams();
 
     let content;
-    if (postId == '1') {
+    if (postId == 'how-to-add-cascadia-vscode') {
         content = <CssEP1></CssEP1>
-    } else {
-        content = <CssEP1></CssEP1>
-    }
-
+    } 
     return (
         <div>
           {content}

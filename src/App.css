@@ -1,11 +1,8 @@
-/* Darkblack: #393838 */
-/* .fakeimg {
-  height: 200px;
-  background-color: antiquewhite;
-} */
 
 .blog-root {
   background-color: #f5f5f57a;
+  height: 100vh;
+  padding-top: 100px;
 }
 
 .about-page-container {
@@ -13,7 +10,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 80vh;
+  height: 100vh;
 }
 
 .img-profile > img {
