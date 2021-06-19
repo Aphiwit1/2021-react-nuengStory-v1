@@ -1,7 +1,5 @@
 import { useParams } from "react-router-dom"
-import blogList from '../data/bloglist'
-import CssEP1 from "../Blog/CSS/CssEP1";
-import { useState, useEffect } from "react";
+import CssEP1 from "../../Blog/CssStory/CssEP1";
 
 function EachBlogContent() {
     const { postId } = useParams();
@@ -10,7 +8,7 @@ function EachBlogContent() {
     if (postId == '1') {
         content = <CssEP1></CssEP1>
     } else {
-        content = <div>Hi other</div>
+        content = <CssEP1></CssEP1>
     }
 
     return (

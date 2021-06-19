@@ -1,13 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
-import { Switch, Route, Link, NavLink } from 'react-router-dom';
-import AppHeader from './Components/AppHeader';
-import MyBlog from './Components/MyBlog';
-import AppFooter from './Components/AppFooter'
-import EachBlogContent from './Components/EachBlogContent';
+import { Switch, Route} from 'react-router-dom';
+import AppHeader from './Components/AppHeader/AppHeader';
+import MyBlog from './Components/HomeBlog/MyBlog';
+import AppFooter from './Components/AppFooter/AppFooter'
+import EachBlogContent from './Components/BlogRouting/EachBlogContent';
+import { useEffect } from 'react';
 
 
 function App() {
+
+
+  useEffect(() => {
+    document.title = "NuengStory Dev Blog"
+ }, []);
 
 
   return (
@@ -41,8 +47,7 @@ function App() {
           </div>
         </Route>
 
-      
-
+    
         <Route path="/post/:postId">
           <EachBlogContent />
         </Route>
