@@ -10,10 +10,43 @@ const cssOriginal = `.center-element {
 }`;
 
 const cssFlex = `.center-element {
+    height: 100px;
+    background-color: #f5f5f5;
+    border: 1px solid black;
+
+    // code ที่เพิ่มเข้ามา
     display: flex;
     justify-content: center;
     align-items: center;
 }`;
+
+const cssPaddingWithTextAlign = `.center-element {
+  // height: 100px;
+  background-color: #f5f5f5;
+  border: 1px solid black;
+
+  // code ที่เพิ่มเข้ามา
+  padding: 50px 0px;
+  text-align:center;
+}`;
+
+const cssPositionWithRranslate = `.center-element {
+  height: 100px;
+  background-color: #f5f5f5;
+  border: 1px solid black;
+
+  // code ที่เพิ่มเข้ามา
+  position:relative;
+}
+.center-element > span {
+  // code ที่เพิ่มเข้ามา
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}`;
+
+
 
 function CssBlogEp2() {
   return (
@@ -60,8 +93,8 @@ function CssBlogEp2() {
         </div>
 
         <div class="text-content">
-          <div>- กำหนด css ของกล่องให้เป็น display:flex</div>
-          <div>
+          <div class="mb-10">- กำหนด css ของกล่องให้เป็น display:flex</div>
+          <div class="mb-10"> 
             - ใช้ justify-content ให้เป็น center
             เพื่อกำหนดให้อยู่ตรงกลางในแนวนอน
           </div>
@@ -70,8 +103,45 @@ function CssBlogEp2() {
           </div>
         </div>
 
-        <div className="text-topic">2. </div>
+        <div className="text-topic">2. ใช้ padding คู่กับ text-align</div>
+        <div class="text-content">
+          <Code code={cssPaddingWithTextAlign} language="css" />
+        </div>
+        <div class="text-content">
+          <div class="mb-10">
+            - comment height ของกล่องออกไปก่อน
+          </div>
+          <div class="mb-10">
+           - กำหนด padding ด้านบน-ล่าง เท่ากับ 50px และ ซ้าย-ขวา เท่ากับ 0px เพื่อให้คำอยู่ตรงกลางในแนวตั้ง **แต่คำยังชิดซ้ายในแนวนอนอยู่**
+          </div>
+          <div>
+            - ใช้ text-align เท่ากับ center เข้ามาช่วยให้คำอยู่ตรงกลางในแนวนอน
+          </div>
+        </div>
 
+        <div className="text-topic">3. ใช้ position คู่กับ transform</div>
+        <div class="text-content">
+          <Code code={cssPositionWithRranslate} language="css" />
+        </div>
+
+        <div class="text-content">
+          <div class="mb-10">
+            - สำหรับ class center-element ให้กำหนด position เท่ากับ relative
+          </div>
+          <div class="mb-10">
+           - สำหรับ span ที่อยู่ใน class center-element ในที่นี้หมายถึงคำว่า HelloWorld ให้กำหนด position เท่ากับ absolute เพื่อให้มันสามารถย้ายตำแหน่งโลดแล่นไปตรงไหนก็ได้ภายในกล่อง (scope ที่ถูกกำหนดโดยใช้ position: relative)
+          
+          
+          </div>
+          
+          <div class="mb-10">
+          - กำหนด top และ left เท่ากับ 50% ผลลัพท์จะสังเหตุว่าย้ายตำแหน่งแล้วแต่ก็ยังไม่ใช่กึ่งกลาง เหตุเพราะตัวคำว่า Helloworld ก็มีความยาวและความสูง
+          </div>
+
+          <div>
+          - ดังนั้นจึงต้องกำหนด transform  เท่ากับ translate เพื่อเลื่อนตำแหน่ง มีค่าเท่ากับ (-50%) อันแรกคือเลื่อนไปทางซ้าย(แกน x) (-50%) และอันต่อมาคือ เลื่อนขึ้นข้างบน(แกน y) 50% 
+          </div>
+        </div>
         
       </div>
     </div>
