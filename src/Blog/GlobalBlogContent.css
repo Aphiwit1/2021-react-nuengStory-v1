@@ -42,6 +42,10 @@
     line-height: 1.7;
 }
 
+.Code {
+    font-size: 14px;
+}
+
 @media only screen and (max-width: 1280px) {
     .blog-content-container {
         padding: 0px 15%;
@@ -69,6 +73,23 @@
     .cover-img>img {
         min-height: 50px;
     }
+    .Code {
+        font-size: 12px;
+    }
 }
+
+@media only screen and (max-width: 500px) {
+    .Code {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .Code {
+        font-size: 8px;
+    }
+}
+
+
 
 /* dl.dropboxusercontent.com/..... */
