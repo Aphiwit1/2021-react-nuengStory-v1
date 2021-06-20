@@ -9,7 +9,7 @@ const blogList = [
       readMore: "Read more ->"
     } ,
     {
-      postId: "2",
+      postId: "css-trick-2-how-to-set-element-in-center",
       title: "#CSS Trick: วิธีจัด Element ไว้ตรงกลางของหน้าจอเว็บไซต์",
       cover: "https://dl.dropboxusercontent.com/s/7c6wu7iqz4ww8et/cascadia.jpg?dl=0",
       createdBy: "aphiwit",
