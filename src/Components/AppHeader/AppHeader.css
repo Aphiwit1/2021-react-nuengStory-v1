@@ -7,8 +7,8 @@
   font-family: 'Kanit', sans-serif;
   background-color: hsla(0,0%,100%,.5);
   backdrop-filter: blur(20px);
-  height: 75px;
-  position: fixed;
+  height: 90px;
+  /* position: fixed; */
   width: 100%;
   justify-content: space-evenly;
   z-index: 2;
@@ -35,8 +35,9 @@
 
 .page-name> a {
   text-decoration: none;
-  margin: 0px 10px;
+  margin: 0px 20px;
   color: #424242;
+  font-size: 18px;
 }
 
 .link-active {

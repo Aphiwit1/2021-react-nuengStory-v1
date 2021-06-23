@@ -3,6 +3,14 @@
     margin-bottom: 10px;
 }
 
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
 .blog-content-container {
     display: flex;
     background-color: #f5f5f57a;

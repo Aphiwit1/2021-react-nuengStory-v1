@@ -124,7 +124,7 @@ function CssBlogEp2() {
           <Code code={cssPositionWithRranslate} language="css" />
         </div>
 
-        <div class="text-content">
+        <div class="text-content pb-50">
           <div class="mb-10">
             - สำหรับ class center-element ให้กำหนด position เท่ากับ relative
           </div>
@@ -141,6 +141,10 @@ function CssBlogEp2() {
           <div>
           - ดังนั้นจึงต้องกำหนด transform  เท่ากับ translate เพื่อเลื่อนตำแหน่ง มีค่าเท่ากับ (-50%) อันแรกคือเลื่อนไปทางซ้าย(แกน x) (-50%) และอันต่อมาคือ เลื่อนขึ้นข้างบน(แกน y) 50% 
           </div>
+        </div>
+
+        <div class="text-content pb-50">
+          <strong>ข้อมูลอ้างอิงจาก:</strong> https://www.w3schools.com/
         </div>
         
       </div>
