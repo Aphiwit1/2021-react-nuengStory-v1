@@ -5,7 +5,7 @@ function AppFooter() {
    
     return (
         <div className="footer">
-Created by @aphiwit
+                <span class="created-by">Created by </span><span class="owner-name"> @aphiwit</span>
         </div>
     )
 }
