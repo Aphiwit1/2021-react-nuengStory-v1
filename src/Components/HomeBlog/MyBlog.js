@@ -10,7 +10,7 @@ function MyBlog() {
                 {/* <div className="blog-container">
                
                 <div className="content" >
-                <Link class="blog-link" to={`/post/${element.postId}`} >
+                <Link className="blog-link" to={`/post/${element.postId}`} >
                 <h2>
                         <span className="blog-title">
                             <span><>{element.title}</></span>
@@ -27,10 +27,10 @@ function MyBlog() {
 
                 <div></div>
             </div> */}
-                <div className="blog-container">
+                <div className="blog-container" key={element.postId}>
 
                     <div className="content" >
-                        <Link class="blog-link" to={`/post/${element.postId}`} >
+                        <Link className="blog-link" to={`/post/${element.postId}`} >
                             <div className="img-div" ><img src={element.cover}></img></div>
                             <h2>
                                 <div className="blog-title">

@@ -50,10 +50,13 @@ const cssPositionWithRranslate = `.center-element {
 function CssBlogEp2() {
   return (
     <div className="blog-content-container">
-      <Helmet>
+      <Helmet htmlAttributes>
         <meta charSet="utf-8" />
-        <title>AAAA</title>
+        <title>SSEDD</title>
         <link rel="canonical" href="http://mysite.com/example" />
+
+        <meta property="og:description"  name="description" content="nueng story ep1" />
+     
       </Helmet>
       <div className="blog-content">
         <div className="text-header">
